@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal image asset library for portfolio projects.">
+  <title>Ossy's Image Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">IL</div>
+      <div>
+        <h1>Image Library</h1>
+        <p>Portfolio assets</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <button class="icon-button" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <div>
+        <span class="eyebrow">ASSET LIBRARY</span>
+        <h2>Pick an image. Copy its path. Done.</h2>
+        <p>Keep your portfolio images here and use the generated path or public URL wherever you need them.</p>
+      </div>
+      <div class="stats">
+        <strong id="imageCount">0</strong>
+        <span>images</span>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Search images..." autocomplete="off">
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="all">All</button>
+      </div>
+    </section>
+
+    <div id="emptyState" class="empty-state" hidden>
+      <div class="empty-icon">⌁</div>
+      <h3>No images found</h3>
+      <p>Try another search or category.</p>
+    </div>
+
+    <section class="gallery" id="gallery" aria-live="polite"></section>
+  </main>
+
+  <div class="modal" id="imageModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close preview">×</button>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-info">
+        <div>
+          <span class="modal-category" id="modalCategory"></span>
+          <h3 id="modalTitle">Image</h3>
+          <code id="modalPath"></code>
+        </div>
+        <div class="modal-actions">
+          <button class="button secondary" id="openImage">Open image</button>
+          <button class="button primary" id="copyPath">Copy path</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <footer>
+    <p>Ossy's Image Library</p>
+  </footer>
+
+  <script src="images.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
