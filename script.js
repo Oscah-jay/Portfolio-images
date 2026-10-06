@@ -60,6 +60,16 @@ const imageLibrary = [
     category: "projects"
   },
   {
+    name: "poster",
+    src: "images/projects/YOUTH NFM.png",
+    category: "projects"
+  },
+  {
+    name: "fashion",
+    src: "images/projects/Her Own Beauty.png",
+    category: "projects"
+  },
+  {
     name: "NFM",
     src: "images/ui-ux/nfm.png",
     category: "ui-ux"
