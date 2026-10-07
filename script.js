@@ -70,6 +70,26 @@ const imageLibrary = [
     category: "projects"
   },
   {
+    name: "print",
+    src: "images/projects/8.png",
+    category: "branding"
+  },
+  {
+    name: "poster",
+    src: "images/projects/11.jpg",
+    category: "graphics"
+  },
+  {
+    name: "poster",
+    src: "images/projects/dagracia.png",
+    category: "graphics"
+  },
+  {
+    name: "poster",
+    src: "images/projects/give to live.png",
+    category: "graphics"
+  },
+  {
     name: "NFM",
     src: "images/ui-ux/nfm.png",
     category: "ui-ux"
