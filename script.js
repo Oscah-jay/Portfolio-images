@@ -90,6 +90,21 @@ const imageLibrary = [
     category: "graphics"
   },
   {
+    name: "poster",
+    src: "images/graphics/auto.png",
+    category: "graphics"
+  },
+  {
+    name: "poster",
+    src: "images/graphics/pot.png",
+    category: "graphics"
+  },
+  {
+    name: "poster",
+    src: "images/graphics/weg.png",
+    category: "graphics"
+  },
+  {
     name: "NFM",
     src: "images/ui-ux/nfm.png",
     category: "ui-ux"
