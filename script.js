@@ -110,6 +110,11 @@ const imageLibrary = [
     category: "graphics"
   },
   {
+    name: "poster",
+    src: "images/graphics/zen.png",
+    category: "graphics"
+  },
+  {
     name: "NFM",
     src: "images/ui-ux/nfm.png",
     category: "ui-ux"
