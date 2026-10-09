@@ -115,6 +115,11 @@ const imageLibrary = [
     category: "graphics"
   },
   {
+    name: "print",
+    src: "images/projects/O.png",
+    category: "graphics"
+  },
+  {
     name: "NFM",
     src: "images/ui-ux/nfm.png",
     category: "ui-ux"
