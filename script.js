@@ -120,9 +120,14 @@ const imageLibrary = [
     category: "graphics"
   },
   {
+    name: "poster",
+    src: "images/projects/NFM.png",
+    category: "projects"
+  },
+  {
     name: "print",
     src: "images/projects/O.png",
-    category: "graphics"
+    category: "projects"
   },
   {
     name: "NFM",
