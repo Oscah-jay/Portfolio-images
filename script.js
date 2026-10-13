@@ -125,6 +125,11 @@ const imageLibrary = [
     category: "projects"
   },
   {
+    name: "poster",
+    src: "images/projects/PXL-Prints@2x.png",
+    category: "projects"
+  },
+  {
     name: "print",
     src: "images/projects/O.png",
     category: "projects"
